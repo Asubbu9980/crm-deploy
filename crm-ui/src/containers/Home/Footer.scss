@@ -1,0 +1,46 @@
+.footer-section {
+	background: #1e293b;
+	color: #fff;
+
+	a {
+		position: relative;
+		text-decoration: none;
+		margin: 15px 0;
+		-webkit-transition: all 0.3s ease-in-out 0s;
+		-o-transition: all 0.3s ease-in-out 0s;
+		transition: all 0.3s ease-in-out 0s;
+        color: #fff;
+
+		&::before {
+			-webkit-transition: all 0.3s ease-in-out 0s;
+			-o-transition: all 0.3s ease-in-out 0s;
+			transition: all 0.3s ease-in-out 0s;
+			background-color: #fff;
+			content: '';
+			width: 0;
+			height: 2px;
+			display: inline-block;
+			position: absolute;
+			top: 50%;
+			left: 0;
+			-webkit-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+			-o-transform: translateY(-50%);
+			transform: translateY(-50%);
+		}
+
+		&:hover {
+			padding-left: 25px;
+
+			&:before {
+				width: 15px;
+			}
+		}
+
+		&:focus {
+			&:before {
+				width: 15px;
+			}
+		}
+	}
+}

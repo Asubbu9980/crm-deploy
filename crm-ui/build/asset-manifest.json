@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e7063120.css",
+    "main.js": "/static/js/main.e555a20e.js",
+    "static/js/787.6b19c91d.chunk.js": "/static/js/787.6b19c91d.chunk.js",
+    "static/media/crm-login-bg.png": "/static/media/crm-login-bg.7c85aed914f614acd75a.png",
+    "static/media/crm-bann-icon.png": "/static/media/crm-bann-icon.3db4f5e030a67b7837bd.png",
+    "static/media/crm-image2.png": "/static/media/crm-image2.b7503fbe9034f70a7b22.png",
+    "static/media/Alata-Regular.ttf": "/static/media/Alata-Regular.a90e0970a7aca7d36f95.ttf",
+    "static/media/crm-image1.png": "/static/media/crm-image1.1bd0ca2ad9e78101dc86.png",
+    "static/media/JNIT-logo.jpg": "/static/media/JNIT-logo.cfa0885147ba9e44b836.jpg",
+    "static/media/banner-bg.png": "/static/media/banner-bg.e959a801ed228de66dab.png",
+    "static/media/footer-logo.png": "/static/media/footer-logo.56173c8d253d62cab883.png",
+    "index.html": "/index.html",
+    "main.e7063120.css.map": "/static/css/main.e7063120.css.map",
+    "main.e555a20e.js.map": "/static/js/main.e555a20e.js.map",
+    "787.6b19c91d.chunk.js.map": "/static/js/787.6b19c91d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7063120.css",
+    "static/js/main.e555a20e.js"
+  ]
+}

@@ -1,0 +1,13 @@
+
+@import 'react-toastify/dist/ReactToastify.css';
+
+@font-face {
+  font-family: 'Alata';
+  src: url('./assets/fonts/Alata/Alata-Regular.ttf');
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Alata' !important;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "ml-crm-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm start --prefix crm-server",
+    "client": "npm start --prefix crm-ui",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "ci": "npm i && npm i --force --prefix crm-server && npm i --force --prefix crm-ui"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asubbu9980/ML-CRM-App.git"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asubbu9980/ML-CRM-App/issues"
+  },
+  "homepage": "https://github.com/Asubbu9980/ML-CRM-App#readme"
+}

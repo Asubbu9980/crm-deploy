@@ -1,0 +1,61 @@
+{
+  "name": "crm-ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.10.16",
+    "@mui/material": "^5.10.17",
+    "@mui/styled-engine-sc": "^5.10.16",
+    "@mui/styles": "^5.11.2",
+    "@mui/x-date-pickers": "^5.0.17",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.2.4",
+    "bootstrap": "^5.2.3",
+    "chart.js": "^4.1.2",
+    "cryptr": "^6.0.3",
+    "dayjs": "^1.11.7",
+    "jsconfig.json": "^2.3.3",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-microsoft-login": "^1.15.0",
+    "react-mui-dropzone": "^4.0.6",
+    "react-router-dom": "^6.4.5",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.1",
+    "sass": "^1.56.2",
+    "styled-components": "^5.3.6",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:3001/"
+}
